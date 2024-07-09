@@ -30,7 +30,7 @@ document.write('Modulus of ' + num1 + ' and ' + num2 + ' is ' + modulus + '<br /
 var  num
 
 console.log('Value after variable declaration is ' + num);
-document.write('Value after variable declaration is ' + num + '<br />');
+document.write('<br /> Value after variable declaration is ' + num + '<br />');
 
 num = 5;
 
@@ -64,12 +64,91 @@ var noOfTickets = 5;
 var costOf5Tickets = ticketPrice * noOfTickets;
 
 console.log('Total cost to buy ' + noOfTickets + ' tickets to a movie is ' + costOf5Tickets + 'PKR');
-document.write('Total cost to buy ' + noOfTickets + ' tickets to a movie is ' + costOf5Tickets + 'PKR' + '<br />');
+document.write('<br /> Total cost to buy ' + noOfTickets + ' tickets to a movie is ' + costOf5Tickets + 'PKR' + '<br />');
 
 // Assignment 5
 
 
-// Assignment 1
-// Assignment 1
-// Assignment 1
-// Assignment 1
+// Assignment 6
+
+var celsius = 25;
+var celToFah = (celsius * 9/5) + 32;
+console.log(celsius + 'C is = ' + celToFah + 'F');
+document.write('<br />' + celsius + 'C is = ' + celToFah + 'F' + '<br />');
+
+var fahrenheit = 70;
+var fahTOCel = (fahrenheit - 32) * 5/9;
+console.log(fahrenheit + 'F is = ' + fahTOCel + 'C');
+document.write(fahrenheit + 'F is = ' + fahTOCel + 'C' + '<br />');
+
+// Assignment 7
+
+document.write('<h1>Shopping Cart</h1>');
+
+var p1 = 650;
+console.log('Price of item 1 is ' + p1);
+document.write('Price of item 1 is ' + p1);
+
+var q1 = 3;
+console.log('Quantity of item 1 is ' + q1);
+document.write('<br /> Quantity of item 1 is ' + q1);
+
+var p2 = 100;
+console.log('Price of item 2 is ' + p2);
+document.write('<br /> Price of item 2 is ' + p2);
+
+var q2 = 7;
+console.log('Quantity of item 2 is ' + q2);
+document.write('<br /> Quantity of item 2 is ' + q2);
+
+var charges = 100;
+console.log('Shipping charges are ' + charges);
+document.write('<br /> Shipping charges are ' + charges);
+
+var totalCost = (p1 * q1) + (p2 * q2) + charges;
+console.log('Total cost of your order is ' + totalCost);
+document.write('<br /> Total cost of your order is ' + totalCost);
+
+// Assignment 8
+
+var totalMarks = 980;
+console.log('Total Marks: ' + totalMarks);
+document.write('<br /><br />Total Marks: ' + totalMarks);
+
+var obtainedMarks = 804;
+console.log('Obtained Marks: ' + obtainedMarks);
+document.write('<br />Obtained Marks: ' + obtainedMarks);
+
+var percentage = obtainedMarks / totalMarks * 100;
+console.log('Percentage: ' + percentage);
+document.write('<br />Percentage: ' + percentage + '%');
+
+// Assignment 9
+
+document.write('<h1>Currency in PKR</h1>');
+
+var totalCurrencyInPKR = (10 * 104.80) + (25 * 28);
+console.log('Total currency in PKR: ' + totalCurrencyInPKR);
+document.write('Total currency in PKR: ' + totalCurrencyInPKR);
+
+// Assignment 10
+
+var num3 = 200;
+var num3 = ((num3 + 5) * 10) / 2;
+console.log(num3);
+
+// Assignment 11
+
+document.write('<h1>Age Calculator</h1>');
+
+var currentYear = +prompt('Enter Current Year');
+console.log('Current Year: ' + currentYear);
+document.write('<br />Current Year: ' + currentYear);
+
+var birthYear = +prompt('Enter Birth Year');
+console.log('Birth Year ' + birthYear);
+document.write('<br />Birth Year: ' + birthYear);
+
+var age = currentYear - birthYear;
+console.log('Your Age is: ' + age);
+document.write('<br />Your Age is: ' + age);
