@@ -152,3 +152,43 @@ document.write('<br />Birth Year: ' + birthYear);
 var age = currentYear - birthYear;
 console.log('Your Age is: ' + age);
 document.write('<br />Your Age is: ' + age);
+
+// Assignment 12
+
+document.write('<h1>The Geometrizer</h1>');
+
+var radius = 20;
+console.log('Radius of a circle: ' + radius);
+document.write('Radius of a circle: ' + radius);
+
+var circumference = 2 * 3.142 * radius;
+console.log('The circumference is: ' + circumference);
+document.write('<br />The circumference is: ' + circumference);
+
+var area = 3.142 * radius**2;
+console.log('The area is ' + area);
+document.write('<br />The area is ' + area);
+
+// Assignment 13
+
+document.write('<h1>The Lifetime Supply Calculator</h1>');
+
+var favSnack = prompt('Enter your favorite snack');
+console.log('Favorite Snack: ' + favSnack);
+document.write('Favorite Snack: ' + favSnack);
+
+var currentAge = +prompt('Enter your current age');
+console.log('Current Age: ' + currentAge);
+document.write('<br />Current Age: ' + currentAge);
+
+var maxAge = +prompt('Enter your estimated maximum age');
+console.log('Estimated Maximum Age: ' + maxAge);
+document.write('<br />Estimated Maximum Age: ' + maxAge);
+
+var amountOfSnacksPerDay = +prompt('Enter estimated amount of snack per day');
+console.log('Amount of snacks per day: ' + amountOfSnacksPerDay);
+document.write('<br />Amount of snacks per day: ' + amountOfSnacksPerDay);
+
+var totalSnack = (maxAge - currentAge) * amountOfSnacksPerDay;
+console.log('You will need ' + totalSnack + ' ' + favSnack + ' to last you until the ripe old age of ' + maxAge);
+document.write('<br />You will need ' + totalSnack + ' ' + favSnack + ' to last you until the ripe old age of ' + maxAge);
